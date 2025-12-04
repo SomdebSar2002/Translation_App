@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=send" />
+    </head>
+    <body>
+        <!-- Your HTML here -->
+        <header>
+            <img id ="parrot" src="./assets/parrot.png">
+            <div>
+            <h1>PollyGlot</h1>
+            <h3>Perfect Translation Every Time</h3>
+            </div>
+        </header>
+        <main>
+            <div id="messages">
+                <div class="ai-reply mf">
+                    Select the language you 
+me to translate into, type your text and hit send!
+                </div>
+                <div id="hr" class="human-reply mf k">
+                <!-- How are you? -->
+                </div>
+                <div id="ai" class="ai-reply mf k">
+                <!-- Comment allez-vous? -->
+                </div>
+                <div class="type">
+                    <textarea id="mess" maxlength="48" placeholder="say something..."></textarea>
+<svg id="send" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#32cd32"><path d="M120-160v-640l760 320-760 320Zm66.67-102 520.66-218-520.66-220v158.67L428-480l-241.33 60v158Zm0 0v-438 438Z"/></svg>
+                </div>
+                <div class="buttons">
+                <button id="fr"/>
+                <button id="sp"/>
+                <button id="jp"/>
+                </div>
+                
+            </div>
+            
+        </main>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
