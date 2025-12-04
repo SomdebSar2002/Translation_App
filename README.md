@@ -1,10 +1,3 @@
-Here is a **clean, professional, beautifully formatted `README.md`** for your translator app — includes description, features, how it works, moderation flow, screenshots placeholders, setup instructions, and more.
-
-You can copy-paste directly into GitHub.
-If you want, I can also add images, badges, or a logo later.
-
----
-
 # 🌍 **PollyGlot — AI-Powered Language Translator**
 
 Perfect translation. Smart moderation. Clean interface.
